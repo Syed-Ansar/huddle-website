@@ -1,0 +1,41 @@
+@media screen and (min-width: 1440px) {
+  .txt {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.top {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px;
+    text-align: left;
+  }
+  .image img {
+    min-width: auto;
+    margin-right: 12px;
+  }
+  .btn {
+    text-align: center;
+    width: 150px;
+    height: 35px;
+  }
+  .mycard .btn-l {
+    width: 300px;
+    height: 50px;
+  }
+  h1 {
+    width: 70%;
+  }
+  p {
+    width: 50%;
+  }
+  header {
+    margin-bottom: 70px;
+  }
+  .card:nth-child(2) p{
+    width: 80%;
+  }
+  .copy{
+    text-align: right;
+  }
+}
